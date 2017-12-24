@@ -1,0 +1,26 @@
+
+iframe{
+    width:80%;
+    height:800px;
+    margin-bottom:-.4em;
+	border:0px none;
+    overflow: hidden;
+}
+nav{
+    width:19%;
+    height:300px;
+    position: fixed;
+    top:11.45%;
+    padding-left:.8em;
+    right:0px;
+}
+nav dl dt,nav dl dd{
+    margin-top:5px;
+}
+nav dl dd{
+    margin-left:8px;
+}
+nav a{
+    text-decoration: none;
+    color: #00f;
+}

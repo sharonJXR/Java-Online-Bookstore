@@ -1,0 +1,69 @@
+@font-face{
+    font-family:myFirstFont;
+    src:url('font/Hannotate.ttf');
+}
+html *{
+    font: 1em myFirstFont, sans-serif;
+    margin:0px;
+    padding:0px;
+    border: 1px none rgba(0,0,0,0);
+    vertical-align: baseline;
+}
+#p_header{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 15px 0px 0px;
+    text-shadow: #fff 5px 5px 4px;
+    border-radius:20px;
+    border: 1px none rgba(0,0,0,0);
+    background:#ddd;
+    width:100%;
+}
+#p_header div{
+    height:15px;
+    border: 1px none rgba(0,0,0,0);
+    background:#ddd;
+}
+#p_footer{
+    clear: both;    
+    width:100%;
+    padding:0px 0px 5px;
+    text-align: center;
+    border-radius:20px;
+    background:#ddd;
+}
+#p_footer div{
+    padding:6px 0px;
+    background:#ddd;
+    margin-bottom:-10px;
+}
+input:focus{
+    border-bottom: 1px solid #0f0;
+}
+input{
+    border-style: none;
+    outline-style:none;
+    width:10em;
+    border-bottom: 1px solid #ddd;
+    padding: 3px 0px 3px 5px;
+}
+button{
+    border:1px solid #ddd;
+    border-radius:8px;
+    margin:5px 0px 5px 5px;
+    font-size:.8em;
+    background:#fff;
+    cursor: pointer;
+    padding:5px 2px;
+}
+button:hover{
+    border:1px solid #0f0;
+    }
+button:active{
+    color:#0f0;
+}
+a{
+    text-decoration: none;
+}
+

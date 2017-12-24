@@ -1,0 +1,44 @@
+article.right{
+    clear: both;
+    width:20%;
+    height:300px;
+    position: fixed;
+    top:11.45%;
+    right:0px;
+    background:#fff;
+}
+article.right form{
+    margin:0px 5px;
+}
+article.right form input{
+    width:78%;
+}
+article.right header{
+    clear:both;
+    text-align: center;
+    font-size: 1em;
+}
+article.right ul{
+    clear:both;
+    list-style: none;
+    margin:10px;
+}
+article.right ul a{
+    color:#000;
+    text-decoration: none;
+}
+article.right ul li{
+    margin:5px 0px;
+}
+article.right section ul{
+    margin:5px 10px;
+    cursor: pointer;
+}
+article.right section ul li{
+    float:left;
+    margin:1px 10px;
+}
+article.right section footer{
+    text-align: right;
+    margin-right:20px;
+}

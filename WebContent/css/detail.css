@@ -1,0 +1,11 @@
+article{
+    height:600px;
+}
+article header{
+    font: normal normal bold 1.5em MyFirstFont, sans-serif;
+    text-shadow: #DDD 10px 10px 2px;
+    text-align: center;
+}
+article p{
+    margin:5px 8px;
+}

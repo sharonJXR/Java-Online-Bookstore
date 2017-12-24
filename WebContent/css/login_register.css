@@ -1,0 +1,23 @@
+article{
+    width:49.9%;
+    height:780px;
+}
+article form{
+    width:14em;
+    padding-top:50px;
+    margin:0px auto;
+    font-size: 1.2em;
+}
+article form header{
+    text-align:center;
+    text-shadow: #ddd 5px 5px 2px;
+}
+article form p {
+    margin-top:5px;
+    text-align:right;
+}
+article.login{
+    margin-left:49.9%;
+    margin-top:-780px;
+    border-left: 1px dotted #999;
+}

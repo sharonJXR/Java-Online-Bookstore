@@ -1,0 +1,67 @@
+/*
+index layout
+*/
+article{
+    width:80%;
+}
+article header{
+    border: 1px solid #999;
+    border-radius:10px;
+    margin-top:-1px;
+    padding-left:20px;
+}
+article figure{
+    float: left;
+    display: inline;
+    text-align: center;
+    margin:10px 20px;
+    width:16%;
+    font-size:12px;
+    height:150px;
+    overflow: hidden;
+}
+article figure img{
+    width:100px;
+    height:118px;
+}
+article figure figcaption{
+    position: relative;
+    bottom:16px;
+    background:#ded;
+    color:#00f;
+    display:none;
+}
+article figure:hover figcaption{
+    display:block;
+}
+article nav.list_nav{
+    position: fixed;
+    right:20%;
+    width:50px;
+}
+article nav.list_nav div.next{
+    width:50px;
+    height:66px;
+    background: rgba(0, 0, 0, 0) url(../images/nav.gif) no-repeat scroll 0 0;
+}
+article nav.list_nav div.previous{
+    width:50px;
+    height:56px;
+    background: rgba(0, 0, 0, 0) url(../images/nav.gif) no-repeat scroll 0 -143px ;
+}
+article nav.list_nav div.next:hover{
+    background: rgba(0, 0, 0, 0) url(../images/nav.gif) no-repeat scroll 0 -70px;
+}
+article nav.list_nav div.previous:hover{
+    background: rgba(0, 0, 0, 0) url(../images/nav.gif) no-repeat scroll 0 -199px ;
+}
+article nav.list_nav a{
+    display:block;
+    width:45px;
+    padding:12px 0px;
+    text-align:center;
+    border: 1px solid #ddd;
+    border-radius:10px;
+    margin:3px;
+    color:00f;
+}

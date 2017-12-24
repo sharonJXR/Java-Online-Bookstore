@@ -1,0 +1,40 @@
+article{
+    width:80%;
+}
+article header{
+    border: 1px solid #999;
+    border-radius:10px;
+    margin-top:-1px;
+    padding-left:20px;
+}
+header{
+    border: 1px solid #999;
+    border-radius:10px;
+    margin-top:-1px;
+    padding-left:20px;
+}
+section.detail{
+    margin:10px 20px 0 20px;
+    float:left;
+}
+section.detail img{
+    width:30%;
+    height:31%;
+    float:left;
+}
+section.detail ul{
+    list-style: none;
+    padding:50px ;
+}
+section.detail button{
+    margin:5em 0px 0px 50em;
+}
+
+section header{
+    clear:left;
+    margin-top:10px;
+}
+section div{
+    padding:10px;
+}
+

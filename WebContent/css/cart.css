@@ -1,0 +1,96 @@
+
+article header{
+    font: normal normal bold 1.5em MyFirstFont, sans-serif;
+    text-shadow: #DDD 10px 10px 2px;
+    text-align: center;
+}
+article section header{
+    font: italic normal normal 1.1em MyFirstFont, sans-serif;
+    text-shadow: #DDD 4px 4px 2px;
+    text-align:left;
+}
+article section{
+    padding:8px;
+}
+article section ul{
+    float:left;
+    width:100%;
+    border-bottom: 1px solid #ddd;
+}
+article section ul li.quantity input{
+    width:100px;
+}
+article section ul.caption{
+    background:#ddd;
+    border:0 none;
+}
+
+article section ul li{
+    list-style: none;
+    float: left;
+    padding:5px 10px;
+}
+article section ul li{
+    width:9%;
+}
+article section ul li.name,article section li.full_name{
+    width:30%;
+}
+article section li.street{
+    width:40%;
+}
+article section input[type=radio]{
+    margin-left:-4.5em;
+}
+article section ul li a{
+    margin-right:20px;
+}
+article section ul.add{
+    background:#fff;
+    margin-top:20px;
+}
+article section ul.add li{
+    width:20%;
+}
+article section ul.add{
+    border:0 none;
+}
+article section ul.add li.operator{
+    width:10%;
+}
+article section ul.add input{
+    width:50%;
+}
+article section ul.add li.street{
+    width:40%;
+}
+article section ul.add li.street input{
+    width:60%;
+}
+
+article section footer{
+    text-align:right;
+}
+article footer{
+    text-align: right;
+}
+article footer button{
+    margin-right:20px;
+    font-weight: bold;
+}
+
+article section ul section{
+	position:fixed;
+	margin-top:25px;
+	width:100%;
+	padding:0px;
+	background:#ded;
+	display:none;
+}
+article section ul:hover section{
+	display:block;
+}
+article section ul section ul li.province,article section ul section ul li.city{
+	width:20%;
+}
+

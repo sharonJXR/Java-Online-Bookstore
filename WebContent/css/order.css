@@ -1,0 +1,56 @@
+article{
+    height:600px;
+}
+article header{
+    font: normal normal bold 1.5em MyFirstFont, sans-serif;
+    text-shadow: #DDD 10px 10px 2px;
+    text-align: center;
+}
+article section header{
+    font: italic normal normal 1.1em MyFirstFont, sans-serif;
+    text-shadow: #DDD 4px 4px 2px;
+    text-align:left;
+}
+article section{
+    padding:8px;
+}
+article section ul{
+    float:left;
+    width:100%;
+    padding:2px;
+    border-bottom:1px solid #ddd;
+}
+article section ul.caption{
+    border:0 none;
+    background:#ddd;
+}
+article section ul li{
+    list-style: none;
+    float: left;
+    width:18%;
+    margin-right:10px;
+}
+article section li.book{
+    cursor: pointer;
+}
+article section div li{
+    width:3%;
+}
+article section div li.total{
+    width:10%;
+}
+article section div li.name{
+    width:40%;
+}
+article section ul div{
+    position: fixed;
+    background:#ded;
+    display:none;
+    color:#00a;
+    width:100%;
+}
+
+article section li:hover div{
+    display:block;
+}
+
