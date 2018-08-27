@@ -2,6 +2,9 @@
 Hosted on windowsX64 Server, built with Tomcat8, oracle11g and java8
 
 
+
+
+
 • Developed front-end based on MVC Framework with technologies: JSP pages, CSS and HTML to implement client side validations using JAVASCRIPT, SERVLET ascontroller, and JAVABEAN and DAO as service layer.; 
 
 • Built ORACLE database connection, by using JPA connection tool which runs on top of JDBC14;
